@@ -1,0 +1,6 @@
+[submodule "frequency_count"]
+	path = frequency_count
+	url = git@github.com:Menaures/frequency_count.git
+[submodule "stop_watch"]
+	path = stop_watch
+	url = git@github.com:Menaures/stop_watch.git
