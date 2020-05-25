@@ -1,12 +1,12 @@
 Model {
-  Name			  "frequency_count_v2"
+  Name			  "frequency_count_v2_1"
   Version		  10.1
   SavedCharacterEncoding  "windows-1252"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.38"
+    ComputedModelVersion    "1.41"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -22,7 +22,7 @@ Model {
     NumExternalFileReferences 1
     ExternalFileReference {
       Reference		      "simulink/Math\nOperations/Slider\nGain"
-      Path		      "frequency_count_v2/Frequency (move slider)"
+      Path		      "frequency_count_v2_1/Frequency (move slider)"
       SID		      "4"
       Type		      "LIBRARY_BLOCK"
     }
@@ -82,9 +82,9 @@ Model {
 	  ViewObjType		  "StateflowChart"
 	  LoadSaveID		  "5"
 	  Extents		  [1882.0, 814.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [2.0035554238475619, 235.63192829831704]
-	  SceneRectInView	  [2.0035554238475619, 235.63192829831704, 1254.6666666666667, 542.66666666666663]
+	  ZoomFactor		  [0.8]
+	  Offset		  [-639.82290061717765, -82.699669114900871]
+	  SceneRectInView	  [-639.82290061717765, -82.699669114900871, 2352.5, 1017.5]
 	}
 	Object {
 	  $ObjectID		  6
@@ -137,7 +137,7 @@ Model {
       }
       WindowUuid	      "37b9fe6d-2645-4f4d-97de-079ebcf35dc1"
     }
-    BDUuid		    "2005ee2a-8202-49ad-8cdd-83f1291efee1"
+    BDUuid		    "192d22c2-f3b5-473b-bc42-41817c131f31"
   }
   HideAutomaticNames	  on
   Created		  "Tue Feb 18 15:25:00 2003"
@@ -146,9 +146,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "Robin Vogt"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon May 25 10:05:15 2020"
-  RTWModifiedTimeStamp	  512301907
-  ModelVersionFormat	  "1.%<AutoIncrement:38>"
+  LastModifiedDate	  "Mon May 25 10:11:26 2020"
+  RTWModifiedTimeStamp	  511906334
+  ModelVersionFormat	  "1.%<AutoIncrement:41>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -208,11 +208,11 @@ Model {
     $PropName		    "DataLoggingOverride"
     $ObjectID		    9
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
-    model_		    "frequency_count_v2"
+    model_		    "frequency_count_v2_1"
     Array {
       Type		      "Cell"
       Dimension		      1
-      Cell		      "frequency_count_v2"
+      Cell		      "frequency_count_v2_1"
       PropName		      "logAsSpecifiedByModels_"
     }
     Array {
@@ -1261,7 +1261,7 @@ Model {
     }
   }
   System {
-    Name		    "frequency_count_v2"
+    Name		    "frequency_count_v2_1"
     Location		    [-8, -8, 1928, 1048]
     Open		    off
     PortBlocksUseCompactNotation off
@@ -1319,23 +1319,23 @@ Model {
       "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
       "ources','WiredSimulink',true,'DataLoggingVariableName','ScopeData1','DataLoggingSaveFormat','StructureWithTime',"
       "'DataLoggingDecimation','1','DataLoggingDecimateData',true),extmgr.Configuration('Visuals','Time Domain',true,'S"
-      "erializedDisplays',{struct('MinYLimReal','-125.00000','MaxYLimReal','1125.00000','YLabelReal','','MinYLimMag',' "
-      "0.00000','MaxYLimMag','1125.00000','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesC"
-      "olor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.066666"
-      "6666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.83137"
-      "2549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 "
-      "0.650980392156863],'Title','Magenta: actual RPM; Yellow: measured RPM','LinePropertiesCache',{{struct('Visible',"
-      "'on','Color',[1 0 1],'LineStyle','-','LineWidth',0.75,'Marker','none'),struct('Visible','on'),struct('Visible','"
-      "on')}},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)},'Displa"
-      "yPropertyDefaults',struct('MinYLimReal','-125.00000','MaxYLimReal','1125.00000','YLabelReal','','MinYLimMag',' 0"
-      ".00000','MaxYLimMag','1125.00000','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesCo"
-      "lor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666"
-      "666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372"
-      "549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0"
-      ".650980392156863],'Title','Magenta: actual RPM; Yellow: measured RPM','LinePropertiesCache',{{}},'UserDefinedCha"
-      "nnelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)),extmgr.Configuration('Tools',"
-      "'Plot Navigation',true,'OnceAtStop',false,'PreviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',"
-      "true,'Version','2020a')),'Version','2020a','Location',[-1148 105 -323 659])"
+      "erializedDisplays',{struct('MinYLimReal','-1.25','MaxYLimReal','11.25','YLabelReal','','MinYLimMag','0.00000','M"
+      "axYLimMag','11.25','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'A"
+      "xesTickColor',[0.686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.074"
+      "5098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.074"
+      "5098039215686;0.717647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.65098039215686"
+      "3],'Title','Magenta: actual RPM; Yellow: measured RPM','LinePropertiesCache',{{struct('Visible','on','Color',[1 "
+      "0 1],'LineStyle','-','LineWidth',0.75,'Marker','none'),struct('Visible','on'),struct('Visible','on')}},'UserDefi"
+      "nedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefault"
+      "s',struct('MinYLimReal','-1.25','MaxYLimReal','11.25','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','11.25"
+      "','LegendVisibility','On','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0."
+      "686274509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.6"
+      "23529411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.7"
+      "17647058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','Magen"
+      "ta: actual RPM; Yellow: measured RPM','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',0,'Li"
+      "neNames',{{[]}},'ShowContent',true,'Placement',1)),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtSt"
+      "op',false,'PreviousAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2020a')),'Versio"
+      "n','2020a','Location',[-1148 105 -323 659],'VisibleAtModelOpen','on')"
       NumInputPorts	      "1"
       Floating		      off
     }
@@ -1359,7 +1359,7 @@ Model {
       RTWMemSecDataInternal   "Inherit from model"
       RTWMemSecDataParameters "Inherit from model"
       ContentPreviewEnabled   off
-      gain		      "50"
+      gain		      "1"
       low		      "1"
       high		      "500"
     }
@@ -1756,21 +1756,21 @@ Model {
 Stateflow {
   machine {
     id			    1
-    name		    "frequency_count_v2"
+    name		    "frequency_count_v2_1"
     sfVersion		    80000032
-    firstTarget		    30
+    firstTarget		    36
   }
   chart {
     id			    2
     machine		    1
     name		    "Frequency counter"
     windowPosition	    [58 108 923 525]
-    viewLimits		    [2.004 1256.67 235.632 778.299]
-    zoomFactor		    0.889
+    viewLimits		    [-639.823 1712.677 -82.7 934.8]
+    zoomFactor		    1.667
     screen		    [1 1 1280 800 1.333333333333333]
-    treeNode		    [0 5 0 0]
+    treeNode		    [0 3 0 0]
     viewObj		    2
-    ssIdHighWaterMark	    59
+    ssIdHighWaterMark	    67
     decomposition	    CLUSTER_CHART
     chartFileNumber	    1
     executeAtInitialization 1
@@ -1783,52 +1783,28 @@ Stateflow {
       useCustomEnumTypeName   1
       enumTypeName	      "Frequency_counterModeType"
     }
-    firstData		    21
-    firstEvent		    28
+    firstData		    27
+    firstEvent		    34
   }
   state {
     id			    3
-    labelString		    "Clk_Counter/\nen:\nclk_count_c = 0;\ndu:\nclk_count_c ++;"
-    position		    [180.8268 102.7262 156 111.4724]
-    fontSize		    12
-    chart		    2
-    treeNode		    [11 0 0 0]
-    subviewer		    2
-    ssIdNumber		    4
-    type		    OR_STATE
-    decomposition	    CLUSTER_STATE
-  }
-  state {
-    id			    4
-    labelString		    "Signal_false"
-    position		    [608.7602 461.9928 167.6 131.4667]
-    fontSize		    12
-    chart		    2
-    treeNode		    [7 0 0 8]
-    subviewer		    2
-    ssIdNumber		    13
-    type		    OR_STATE
-    decomposition	    CLUSTER_STATE
-  }
-  state {
-    id			    5
     labelString		    "FrequencyCounter"
-    position		    [20.8685 20.2762 1090 685.3]
+    position		    [30.8685 20.2762 966.65 694.25]
     fontSize		    12
     chart		    2
-    treeNode		    [2 6 0 0]
+    treeNode		    [2 4 0 0]
     subviewer		    2
     ssIdNumber		    14
     type		    OR_STATE
     decomposition	    SET_STATE
   }
   state {
-    id			    6
+    id			    4
     labelString		    "Measuring_Count"
-    position		    [53.7185 57.8262 1025.85 332.15]
+    position		    [53.7185 57.8262 908.35 327.15]
     fontSize		    12
     chart		    2
-    treeNode		    [5 9 0 7]
+    treeNode		    [3 5 0 11]
     subviewer		    2
     ssIdNumber		    15
     type		    AND_STATE
@@ -1836,64 +1812,62 @@ Stateflow {
     executionOrder	    2
   }
   state {
-    id			    7
-    labelString		    "Measuring_Time"
-    position		    [51.2935 420.1262 1030.7 252.7]
-    fontSize		    12
-    chart		    2
-    treeNode		    [5 4 6 0]
-    subviewer		    2
-    ssIdNumber		    16
-    type		    AND_STATE
-    decomposition	    CLUSTER_STATE
-    executionOrder	    1
-    firstTransition	    12
-  }
-  state {
-    id			    8
-    labelString		    "Signal_true"
-    position		    [267.5602 469.7262 165.2 116]
-    fontSize		    12
-    chart		    2
-    treeNode		    [7 0 4 0]
-    subviewer		    2
-    ssIdNumber		    18
-    type		    OR_STATE
-    decomposition	    CLUSTER_STATE
-  }
-  state {
-    id			    9
+    id			    5
     labelString		    "Counter"
-    position		    [694.9518 83.0595 367.6167 247.8667]
+    position		    [490.2851 83.0595 454.7834 271.95]
     fontSize		    12
     chart		    2
-    treeNode		    [6 10 0 11]
+    treeNode		    [4 6 0 9]
     subviewer		    2
     ssIdNumber		    31
     type		    AND_STATE
     decomposition	    CLUSTER_STATE
     executionOrder	    2
-    firstTransition	    17
+    firstTransition	    15
   }
   state {
-    id			    10
-    labelString		    "Signal_Counter"
-    position		    [725.2685 160.7929 90.8 83.2]
+    id			    6
+    labelString		    "Initial_State"
+    position		    [524.2435 143.4624 84.8 30]
     fontSize		    12
     chart		    2
-    treeNode		    [9 0 0 0]
+    treeNode		    [5 0 0 7]
     subviewer		    2
     ssIdNumber		    52
     type		    OR_STATE
     decomposition	    CLUSTER_STATE
   }
   state {
-    id			    11
+    id			    7
+    labelString		    "Signal_true"
+    position		    [524.3102 242.5929 90 60]
+    fontSize		    12
+    chart		    2
+    treeNode		    [5 0 6 8]
+    subviewer		    2
+    ssIdNumber		    60
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+  }
+  state {
+    id			    8
+    labelString		    "Signal_false"
+    position		    [832.3369 242.5929 90 60]
+    fontSize		    12
+    chart		    2
+    treeNode		    [5 0 7 0]
+    subviewer		    2
+    ssIdNumber		    61
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+  }
+  state {
+    id			    9
     labelString		    "Timer"
     position		    [72.2185 85.7262 387.65 272]
     fontSize		    12
     chart		    2
-    treeNode		    [6 3 9 0]
+    treeNode		    [4 10 5 0]
     subviewer		    2
     ssIdNumber		    47
     type		    AND_STATE
@@ -1901,147 +1875,83 @@ Stateflow {
     executionOrder	    1
     firstTransition	    19
   }
-  transition {
+  state {
+    id			    10
+    labelString		    "Clk_Counter/\nen:\nclk_count_c = 0;\ndu:\nclk_count_c ++;"
+    position		    [180.8268 102.7262 156 111.4724]
+    fontSize		    12
+    chart		    2
+    treeNode		    [9 0 0 0]
+    subviewer		    2
+    ssIdNumber		    4
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
+  }
+  state {
+    id			    11
+    labelString		    "Measuring_Time"
+    position		    [53.7185 413.8762 799.75 281.7]
+    fontSize		    12
+    chart		    2
+    treeNode		    [3 12 4 0]
+    subviewer		    2
+    ssIdNumber		    16
+    type		    AND_STATE
+    decomposition	    CLUSTER_STATE
+    executionOrder	    1
+    firstTransition	    21
+  }
+  state {
     id			    12
-    labelString		    ""
-    labelPosition	    [348.504 454.726 0 0]
+    labelString		    "Initial_State"
+    position		    [310.5518 471.1012 90 60]
     fontSize		    12
-    src {
-      intersection	      [0 -0 1 0 348.5045 439.7262 0 0]
-    }
-    dst {
-      id		      8
-      intersection	      [1 0 -1 0.49 348.5045 469.7262 0 0]
-    }
-    midPoint		    [348.5045 454.7262]
     chart		    2
-    dataLimits		    [346.104 350.904 439.726 469.726]
+    treeNode		    [11 0 0 13]
     subviewer		    2
-    drawStyle		    SMART
-    slide {
-      sticky		      BOTH_STICK
-    }
-    executionOrder	    1
-    ssIdNumber		    58
-    linkNode		    [7 0 13]
+    ssIdNumber		    65
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
   }
-  transition {
+  state {
     id			    13
-    labelString		    "{clk_count_t ++;}"
-    labelPosition	    [848.36 517.838 91.328 16]
+    labelString		    "Signal_false"
+    position		    [564.5518 563.3429 84.4 37.8667]
     fontSize		    12
-    src {
-      id		      4
-      intersection	      [2 1 0 0.2027 776.3602 488.6385 0 0]
-    }
-    dst {
-      id		      4
-      intersection	      [2 1 0 0.7564 776.3602 561.4385 0 0]
-    }
-    midPoint		    [824.3602 525.0385]
     chart		    2
-    dataLimits		    [776.36 824.489 488.639 563.838]
+    treeNode		    [11 0 12 14]
     subviewer		    2
-    drawStyle		    SMART
-    slide {
-      mode		      MIRROR_SLIDE
-      sticky		      BOTH_STICK
-    }
-    executionOrder	    2
-    ssIdNumber		    39
-    linkNode		    [7 12 14]
+    ssIdNumber		    13
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
   }
-  transition {
+  state {
     id			    14
-    labelString		    "[~Signal]/{clk_count_t ++;}"
-    labelPosition	    [441.392 434.239 141.641 16]
+    labelString		    "Signal_true"
+    position		    [313.7518 565.4762 73.2 33.6]
     fontSize		    12
-    src {
-      id		      8
-      intersection	      [2 1 0 0.1975 432.7602 492.6385 0 0]
-    }
-    dst {
-      id		      4
-      intersection	      [4 -1 0 0.7669 608.7602 492.6385 0 0]
-    }
-    midPoint		    [516.7602 492.6385]
     chart		    2
-    dataLimits		    [432.76 608.76 490.239 495.038]
+    treeNode		    [11 0 13 0]
     subviewer		    2
-    drawStyle		    SMART
-    slide {
-      sticky		      BOTH_STICK
-    }
-    executionOrder	    1
-    ssIdNumber		    25
-    linkNode		    [7 13 15]
+    ssIdNumber		    18
+    type		    OR_STATE
+    decomposition	    CLUSTER_STATE
   }
   transition {
     id			    15
-    labelString		    "{clk_count_t ++;}"
-    labelPosition	    [113.245 511.763 91.328 16]
-    fontSize		    12
-    src {
-      id		      8
-      intersection	      [4 -1 0 0.813 267.5602 491.4222 0 0]
-    }
-    dst {
-      id		      8
-      intersection	      [4 -1 0 0.336 267.5602 546.7555 0 0]
-    }
-    midPoint		    [219.5602 519.0888]
-    chart		    2
-    dataLimits		    [219.439 267.56 491.422 549.156]
-    subviewer		    2
-    drawStyle		    SMART
-    slide {
-      mode		      MIRROR_SLIDE
-      sticky		      BOTH_STICK
-    }
-    executionOrder	    2
-    ssIdNumber		    38
-    linkNode		    [7 14 16]
-  }
-  transition {
-    id			    16
-    labelString		    "[Signal]/{\nMeasurement_time = uint64(1000)/clk_count_t;\nclk_count_t = 1;\n}"
-    labelPosition	    [424.494 608.039 252.938 58]
-    fontSize		    12
-    src {
-      id		      4
-      intersection	      [4 -1 0 0.3313 608.7602 549.9052 0 0]
-    }
-    dst {
-      id		      8
-      intersection	      [2 1 0 0.6912 432.7602 549.9052 0 0]
-    }
-    midPoint		    [524.7602 549.9052]
-    chart		    2
-    dataLimits		    [432.76 608.76 547.505 552.305]
-    subviewer		    2
-    drawStyle		    SMART
-    slide {
-      sticky		      BOTH_STICK
-    }
-    executionOrder	    1
-    ssIdNumber		    19
-    linkNode		    [7 15 0]
-  }
-  transition {
-    id			    17
     labelString		    ""
-    labelPosition	    [768.985 142.426 0 0]
+    labelPosition	    [565.071 125.096 0 0]
     fontSize		    12
     src {
-      intersection	      [0 0 1 0 768.9849 124.0596 0 0]
+      intersection	      [0 0 1 0 565.0712 106.7291 0 0]
     }
     dst {
-      id		      10
-      intersection	      [1 0 -1 0.4815 768.9849 160.7929 0 0]
+      id		      6
+      intersection	      [1 0 -1 0.4815 565.0712 143.4624 0 0]
     }
-    midPoint		    [768.9849 142.4262]
+    midPoint		    [565.0712 125.0957]
     chart		    2
-    dataLimits		    [766.585 771.385 124.06 160.793]
+    dataLimits		    [562.671 567.471 106.729 143.462]
     subviewer		    2
     drawStyle		    SMART
     slide {
@@ -2049,33 +1959,82 @@ Stateflow {
     }
     executionOrder	    1
     ssIdNumber		    50
-    linkNode		    [9 0 18]
+    linkNode		    [5 0 16]
   }
   transition {
-    id			    18
-    labelString		    "[hasChanged(Signal)]/{signal_count ++;}"
-    labelPosition	    [835.569 154.816 217.313 16]
+    id			    16
+    labelString		    "[Signal]/{signal_count = 1;}"
+    labelPosition	    [587.643 195.438 144.313 16]
     fontSize		    12
     src {
-      id		      10
-      intersection	      [2 1 0 0.2286 816.0685 179.8163 0 0]
+      id		      6
+      intersection	      [3 0 1 0.4646 569.6435 173.4624 0 0]
     }
     dst {
-      id		      10
-      intersection	      [2 1 0 0.8657 816.0685 232.8163 0 0]
+      id		      7
+      intersection	      [1 0 -1 0.5037 569.6435 242.5929 0 0]
     }
-    midPoint		    [864.0685 206.3163]
+    midPoint		    [569.6435 204.0276]
     chart		    2
-    dataLimits		    [816.068 864.188 179.816 235.216]
+    dataLimits		    [567.243 572.043 173.462 242.593]
     subviewer		    2
     drawStyle		    SMART
     slide {
-      mode		      MIRROR_SLIDE
       sticky		      BOTH_STICK
     }
     executionOrder	    1
-    ssIdNumber		    57
-    linkNode		    [9 17 0]
+    ssIdNumber		    62
+    linkNode		    [5 15 17]
+  }
+  transition {
+    id			    17
+    labelString		    "[~Signal]"
+    labelPosition	    [694.845 231.603 48.984 16]
+    fontSize		    12
+    src {
+      id		      7
+      intersection	      [2 1 0 0.1935 614.3102 254.2033 0 0]
+    }
+    dst {
+      id		      8
+      intersection	      [4 -1 -0 0.8065 832.3369 254.2033 0 0]
+    }
+    midPoint		    [719.3235 254.2033]
+    chart		    2
+    dataLimits		    [614.31 832.337 251.803 256.603]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    63
+    linkNode		    [5 16 18]
+  }
+  transition {
+    id			    18
+    labelString		    "[Signal]/{signal_count ++;}"
+    labelPosition	    [655.347 291.603 141.313 16]
+    fontSize		    12
+    src {
+      id		      8
+      intersection	      [4 -1 0 0.3176 832.3369 283.5366 0 0]
+    }
+    dst {
+      id		      7
+      intersection	      [2 1 -0 0.6824 614.3102 283.5366 0 0]
+    }
+    midPoint		    [727.3235 283.5366]
+    chart		    2
+    dataLimits		    [614.31 832.337 281.137 285.937]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    64
+    linkNode		    [5 17 0]
   }
   transition {
     id			    19
@@ -2086,7 +2045,7 @@ Stateflow {
       intersection	      [0 1 0 0 153.7154 156.2175 0 0]
     }
     dst {
-      id		      3
+      id		      10
       intersection	      [4 -1 0 0.5201 180.8268 156.2175 0 0]
     }
     midPoint		    [160.8822 156.2175]
@@ -2099,20 +2058,20 @@ Stateflow {
     }
     executionOrder	    1
     ssIdNumber		    41
-    linkNode		    [11 0 20]
+    linkNode		    [9 0 20]
   }
   transition {
     id			    20
-    labelString		    "[clk_count_c == time_interval_multiplier]/{\nMeasurement_count = (500*signal_count)/time_interva"
-    "l_multiplier;\nsignal_count = 0;\nclk_count_c = 0;}"
-    labelPosition	    [88.119 276.251 354.188 58]
+    labelString		    "[clk_count_c == time_interval_multiplier]/{\nMeasurement_count = (1000*signal_count)/time_interv"
+    "al_multiplier;\nsignal_count = 0;\nclk_count_c = 0;}"
+    labelPosition	    [88.119 276.251 360.859 58]
     fontSize		    12
     src {
-      id		      3
+      id		      10
       intersection	      [3 0 1 0.1952 306.3821 214.1986 0 0]
     }
     dst {
-      id		      3
+      id		      10
       intersection	      [3 0 1 0.8234 208.3821 214.1986 0 0]
     }
     midPoint		    [257.3821 262.1986]
@@ -2126,10 +2085,161 @@ Stateflow {
     }
     executionOrder	    1
     ssIdNumber		    46
-    linkNode		    [11 19 0]
+    linkNode		    [9 19 0]
+  }
+  transition {
+    id			    21
+    labelString		    ""
+    labelPosition	    [353.42 456.101 0 0]
+    fontSize		    12
+    src {
+      intersection	      [0 -0 1 0 353.4202 441.1012 0 0]
+    }
+    dst {
+      id		      12
+      intersection	      [1 0 -1 0.4763 353.4202 471.1012 0 0]
+    }
+    midPoint		    [353.4202 456.1012]
+    chart		    2
+    dataLimits		    [351.02 355.82 441.101 471.101]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    66
+    linkNode		    [11 0 22]
+  }
+  transition {
+    id			    22
+    labelString		    "[Signal]/{clk_count_t = 1;}"
+    labelPosition	    [191.145 537.609 137.641 16]
+    fontSize		    12
+    src {
+      id		      12
+      intersection	      [3 0 1 0.5008 355.4771 531.1012 0 0]
+    }
+    dst {
+      id		      14
+      intersection	      [1 -0 -1 0.57 355.4771 565.4762 0 0]
+    }
+    midPoint		    [355.4771 544.2887]
+    chart		    2
+    dataLimits		    [353.077 357.877 531.101 565.476]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    67
+    linkNode		    [11 21 23]
+  }
+  transition {
+    id			    23
+    labelString		    "{clk_count_t ++;}"
+    labelPosition	    [706.951 573.279 91.328 16]
+    fontSize		    12
+    src {
+      id		      13
+      intersection	      [2 1 0 0.2027 648.9518 571.0177 0 0]
+    }
+    dst {
+      id		      13
+      intersection	      [2 1 0 0.7564 648.9518 591.9865 0 0]
+    }
+    midPoint		    [696.9518 581.5021]
+    chart		    2
+    dataLimits		    [648.952 697.057 571.018 594.386]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      mode		      MIRROR_SLIDE
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    2
+    ssIdNumber		    39
+    linkNode		    [11 22 24]
+  }
+  transition {
+    id			    24
+    labelString		    "{clk_count_t ++;}"
+    labelPosition	    [164.098 573.559 91.328 16]
+    fontSize		    12
+    src {
+      id		      14
+      intersection	      [4 -1 0 0.813 313.7518 571.7606 0 0]
+    }
+    dst {
+      id		      14
+      intersection	      [4 -1 0 0.2435 313.7518 590.8951 0 0]
+    }
+    midPoint		    [265.7518 581.3278]
+    chart		    2
+    dataLimits		    [265.648 313.752 571.761 593.295]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      mode		      MIRROR_SLIDE
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    2
+    ssIdNumber		    38
+    linkNode		    [11 23 25]
+  }
+  transition {
+    id			    25
+    labelString		    "[Signal]/{\nMeasurement_time = uint64(1000)/clk_count_t;\nclk_count_t = 1;\n}"
+    labelPosition	    [375.127 614.713 252.938 58]
+    fontSize		    12
+    src {
+      id		      13
+      intersection	      [4 -1 0 0.5733 564.5518 579.5004 0 0]
+    }
+    dst {
+      id		      14
+      intersection	      [2 1 0 0.4174 386.9518 579.5004 0 0]
+    }
+    midPoint		    [479.7518 579.5004]
+    chart		    2
+    dataLimits		    [386.952 564.552 577.1 581.9]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    19
+    linkNode		    [11 24 26]
+  }
+  transition {
+    id			    26
+    labelString		    "[~Signal]/{clk_count_t ++;}"
+    labelPosition	    [405.085 550.922 141.641 16]
+    fontSize		    12
+    src {
+      id		      14
+      intersection	      [2 1 0 0.8486 386.9518 593.9886 0 0]
+    }
+    dst {
+      id		      13
+      intersection	      [4 -1 0 0.1907 564.5518 593.9886 0 0]
+    }
+    midPoint		    [471.7518 593.9886]
+    chart		    2
+    dataLimits		    [386.952 564.552 591.589 596.389]
+    subviewer		    2
+    drawStyle		    SMART
+    slide {
+      sticky		      BOTH_STICK
+    }
+    executionOrder	    1
+    ssIdNumber		    25
+    linkNode		    [11 25 0]
   }
   data {
-    id			    21
+    id			    27
     ssIdNumber		    1
     name		    "Signal"
     scope		    INPUT_DATA
@@ -2146,10 +2256,10 @@ Stateflow {
       }
     }
     dataType		    "boolean"
-    linkNode		    [2 0 22]
+    linkNode		    [2 0 28]
   }
   data {
-    id			    22
+    id			    28
     ssIdNumber		    2
     name		    "Measurement_count"
     scope		    OUTPUT_DATA
@@ -2168,10 +2278,10 @@ Stateflow {
       }
     }
     dataType		    "double"
-    linkNode		    [2 21 23]
+    linkNode		    [2 27 29]
   }
   data {
-    id			    23
+    id			    29
     ssIdNumber		    8
     name		    "signal_count"
     scope		    LOCAL_DATA
@@ -2195,10 +2305,10 @@ Stateflow {
       }
     }
     dataType		    "uint64"
-    linkNode		    [2 22 24]
+    linkNode		    [2 28 30]
   }
   data {
-    id			    24
+    id			    30
     ssIdNumber		    21
     name		    "Measurement_time"
     scope		    OUTPUT_DATA
@@ -2216,10 +2326,10 @@ Stateflow {
       }
     }
     dataType		    "double"
-    linkNode		    [2 23 25]
+    linkNode		    [2 29 31]
   }
   data {
-    id			    25
+    id			    31
     ssIdNumber		    30
     name		    "clk_count_c"
     scope		    LOCAL_DATA
@@ -2243,10 +2353,10 @@ Stateflow {
       }
     }
     dataType		    "uint64"
-    linkNode		    [2 24 26]
+    linkNode		    [2 30 32]
   }
   data {
-    id			    26
+    id			    32
     ssIdNumber		    44
     name		    "clk_count_t"
     scope		    LOCAL_DATA
@@ -2270,10 +2380,10 @@ Stateflow {
       }
     }
     dataType		    "uint64"
-    linkNode		    [2 25 27]
+    linkNode		    [2 31 33]
   }
   data {
-    id			    27
+    id			    33
     ssIdNumber		    59
     name		    "time_interval_multiplier"
     scope		    CONSTANT_DATA
@@ -2290,10 +2400,10 @@ Stateflow {
       }
     }
     dataType		    "uint8"
-    linkNode		    [2 26 0]
+    linkNode		    [2 32 0]
   }
   event {
-    id			    28
+    id			    34
     ssIdNumber		    3
     name		    "clk"
     scope		    INPUT_EVENT
@@ -2302,13 +2412,13 @@ Stateflow {
     linkNode		    [2 0 0]
   }
   instance {
-    id			    29
+    id			    35
     machine		    1
     name		    "Frequency counter"
     chart		    2
   }
   target {
-    id			    30
+    id			    36
     machine		    1
     name		    "sfun"
     codeFlags		    ""
